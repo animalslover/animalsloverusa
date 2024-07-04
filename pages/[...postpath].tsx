@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`http://animalslover.rf.gd//` + encodeURI(path as string)
+					`http://animalslover.rf.gd/
 				}`,
 			},
 		};
